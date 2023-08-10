@@ -1,0 +1,30 @@
+﻿<grammar version="1.0" xml:lang="ja-JP" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>すすむ</tag>
+        <one-of>
+          <item> まえ </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>さがる</tag>
+        <one-of>
+          <item> うしろ </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>かいし</tag>
+        <one-of>
+          <item> かいし </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>さくじょ</tag>
+        <one-of>
+          <item> さくじょ </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>
